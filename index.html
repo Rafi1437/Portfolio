@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Rafi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef40bb8d35.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <br><span>Rafi Ganganapalli</span></h1>
+            <p>Bringing Fresh to Perspective</p>
+        </div>
+    </div>
+</div>
+<!-- -------------about------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user (2).png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello there, I'm pleased to introduce myself as a recent graduate with a Bachelor's degree in Computer 
+                 Applications and a Master's degree in Computer Applications (MCA). I have completed my education with a strong
+                 focus on software development, programming, and computer applications.During my academic journey, I have gained
+                 extensive knowledge in various programming languages such as Java, C++, Python, and database management systems 
+                 like MySQL, Oracle, and MongoDB. I have also developed a strong understanding of software engineering principles, 
+                 web development, and mobile application development.</p>
+
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>HTML, CSS, Java, Java Script, Python, C/C++, Coding</li>
+                        <li><span>UI?UX</span><br>Designing web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-Present</span><br>MCA from Annamacharya PG College of Computer Studies, Rajampet</li>
+                        <li><span>2020-2023</span><br>B.Com Computer Applications From Loyola Degree College, Pulivendula</li>
+                        <li><span>2017-2019</span><br>MPC from Govt Junior College, Pulivendula</li>
+                        <li><span>2016-2017</span><br>SSC from Govt High School(RS), Pulivendula</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experiance">
+                    <ul>
+                        <li><span>2022-2023 (3 Months)</span><br>Internship in SEO at Safestorage</li>
+                        <li><span>Present</span><br>Bringing Fresh to Perspective in Development  and Designing</li>                        
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------services----------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>The art and craft of developing aesthetically pleasing and useful websites is known as web design. 
+                For a novice, web design entails learning the fundamentals of HTML, CSS, and frequently JavaScript—the 
+                three technologies that form the basis of creating and styling web pages.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI/UX design is the specialized practice of creating interfaces that are both visually beautiful and user-friendly, 
+                with an emphasis on the entire feel of the experience (UX, or User Experience) as well as the interface's 
+                interactivity, layout, and aesthetics.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------Portfolio------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Empty</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Empty</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png">
+                <div class="layer">
+                    <h3>Empty</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------------Contact------------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> ganganapallirafi@gmail.com</p>
+                <p> <i class="fa-sharp fa-solid fa-square-phone"></i> +91 8488821117</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ganganapalli.rafi.92"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/1020_rafi"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/rafi.ganganapalli/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rafiganganapalli/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/Rafi CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rafi Ganganapalli 2024 . All rights reserved.</i></p>
+    </div>
+</div>
+    
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyULY89XQA-KuY2GHcUMplY3st4NmCzTE7Pcr6qP2uBNpJg0TCpaYxuV_Pd2JOdfi6CpA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Succefully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
